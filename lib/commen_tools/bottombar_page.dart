@@ -154,7 +154,7 @@ class _BottomBarPageState extends State<BottomBarPage> {
     );
   }
 
-  Widget _commonWidget() {
+  _commonWidget() {
     print(currentIndex);
     switch (currentIndex) {
       case 0:
